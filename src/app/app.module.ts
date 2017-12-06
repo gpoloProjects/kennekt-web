@@ -3,19 +3,20 @@ import { NgModule } from '@angular/core';
 
 // Angular Components
 import { AppComponent } from './app.component';
-import { MegaMenuComponent } from './components/mega-menu/mega-menu.component';
 
 // PrimeNG Modules
 import {MegaMenuModule} from 'primeng/primeng';
+import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
+import {MenubarModule,MenuItem} from 'primeng/primeng';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MegaMenuComponent
+    MenuBarComponent
   ],
   imports: [
     BrowserModule,
-    MegaMenuModule
+    MenubarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
