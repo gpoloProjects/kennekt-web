@@ -5,14 +5,15 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 // PrimeNG Modules
-import {MegaMenuModule} from 'primeng/primeng';
-import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import {MenubarModule,MenuItem} from 'primeng/primeng';
+import { MenuItemComponent } from './components/menu-item/menu-item.component';
+import { MenuComponent } from './components/menu/menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MenuBarComponent
+    MenuItemComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
