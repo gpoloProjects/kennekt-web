@@ -1,10 +1,13 @@
+import { Nutrient } from './nutrient';
+
 export interface MenuItem {
-    category: string,
     foodTitle: string,
-    description: string,
+    category: string,
     image: string,
-    qrCode: string,
-    price: number,    
+    description: string,
+    priceTitles: string[],
+    prices: number[],
+    nutrients: Nutrient,
     rating: number,
     favorite: boolean
 }

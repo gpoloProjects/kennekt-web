@@ -8,12 +8,18 @@ import { AppComponent } from './app.component';
 import {MenubarModule,MenuItem} from 'primeng/primeng';
 import { MenuItemComponent } from './components/menu-item/menu-item.component';
 import { MenuComponent } from './components/menu/menu.component';
+import { MenuHeaderComponent } from './components/menu-header/menu-header.component';
+import { MenuFooterComponent } from './components/menu-footer/menu-footer.component';
+import { MenuCategoryComponent } from './components/menu-category/menu-category.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuItemComponent,
-    MenuComponent
+    MenuComponent,
+    MenuHeaderComponent,
+    MenuFooterComponent,
+    MenuCategoryComponent
   ],
   imports: [
     BrowserModule,
