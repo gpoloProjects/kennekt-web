@@ -1,3 +1,4 @@
+import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -23,7 +24,8 @@ import { MenuCategoryComponent } from './components/menu-category/menu-category.
   ],
   imports: [
     BrowserModule,
-    MenubarModule
+    MenubarModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
