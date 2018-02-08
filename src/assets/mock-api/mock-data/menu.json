@@ -1,12 +1,12 @@
 {
     "restaurantChain": "Arbys",
     "title": "lunch",
-    "headerImage": "../mock-images/chicken.jpg",
+    "headerImage": "assets/mock-api/mock-images/chicken.jpg",
     "lunch": [
         {
             "category": "poultry",
             "actionState": {"actionState": "AddItemToMenu"},
-            "image": "/mock-data/mock-images/chicken.jpg",
+            "image": "assets/mock-api/mock-images/chicken.jpg",
             "avgCookTime": 600,
             "favorite": false,
             "foodTitle": "chicken special",

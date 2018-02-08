@@ -12,6 +12,7 @@ import { MenuComponent } from './components/menu/menu.component';
 import { MenuHeaderComponent } from './components/menu-header/menu-header.component';
 import { MenuFooterComponent } from './components/menu-footer/menu-footer.component';
 import { MenuCategoryComponent } from './components/menu-category/menu-category.component';
+import { MockDataService } from './services/mock-data.service';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,7 @@ import { MenuCategoryComponent } from './components/menu-category/menu-category.
     MenubarModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [MockDataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

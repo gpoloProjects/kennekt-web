@@ -3,10 +3,12 @@
       action mode
   </div>
   <div class="col-2">
-    image <br/> <br/>
+    <!-- <img src="assets/mock-api/mock-images/chicken.jpg"> -->
+    <img [src]="mockMenu?.headerImage">
+    <br/> <br/>
     <div class="row">
       <div class="col-12">
-        average cook time
+        average cook time: {{mockMenu?.lunch[0].avgCookTime}} seconds
       </div>
     </div>
   </div>
