@@ -10,7 +10,7 @@ export class MockDataService {
   private menuUrl2 = '../../../mock-api/mock-data/menu.json'; // can't find?
   constructor(private http: HttpClient) { }
 
-  getMenu(){
+  getMenu(): Observable<any>{
       return this.http.get<Menu>(this.menuUrl); 
   }
 }

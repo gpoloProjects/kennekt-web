@@ -1,7 +1,7 @@
 {
     "restaurantChain": "Arbys",
     "title": "lunch",
-    "headerImage": "assets/mock-api/mock-images/chicken.jpg",
+    "headerImage": "assets/mock-api/mock-images/arbys.png",
     "lunch": [
         {
             "category": "poultry",
@@ -16,8 +16,52 @@
             "description": "the special in Arbys chicken sandwhich", 
             "nutrients": null,
             "isEmpty": false
+        },
+        {
+            "category": "poultry",
+            "actionState": {"actionState": "AddItemToMenu"},
+            "image": "assets/mock-api/mock-images/chicken.jpg",
+            "avgCookTime": 600,
+            "favorite": false,
+            "foodTitle": "chicken special 2",
+            "rating": 4,
+            "priceTitles": [],
+            "prices": [12.50],
+            "description": "the special in Arbys chicken sandwhich", 
+            "nutrients": null,
+            "isEmpty": false
+        },
+        {
+            "category": "dessert",
+            "actionState": {"actionState": "AddItemToMenu"},
+            "image": "assets/mock-api/mock-images/chicken.jpg",
+            "avgCookTime": 600,
+            "favorite": false,
+            "foodTitle": "chicken special desert",
+            "rating": 4,
+            "priceTitles": ["small", "medium", "high"],
+            "prices": [10, 15, 20],
+            "description": "the special in Arbys chicken sandwhich", 
+            "nutrients": null,
+            "isEmpty": false
         }
     ], 
+    "dinner": [
+        {
+            "category": "poultry",
+            "actionState": {"actionState": "AddItemToMenu"},
+            "image": "assets/mock-api/mock-images/chicken.jpg",
+            "avgCookTime": 600,
+            "favorite": false,
+            "foodTitle": "chicken special",
+            "rating": 4,
+            "priceTitles": ["small", "medium", "high"],
+            "prices": [10, 15, 20],
+            "description": "the special in Arbys chicken sandwhich", 
+            "nutrients": null,
+            "isEmpty": false
+        }
+    ],
     "createdBy": "test man!",
     "modifiedBy": "Glen"
 

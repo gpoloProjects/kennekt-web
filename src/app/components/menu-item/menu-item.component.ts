@@ -18,17 +18,17 @@ export class MenuItemComponent implements OnInit {
   constructor(private mockDataService: MockDataService) { }
 
   ngOnInit() { 
-    this.getJson();
+    // this.getJson();
    }
 
-  private getJson(){
-    // this.mockDataService.getMenu().subscribe(data  => this.mockMenu =  { ...data   });  // works but can't do anything in it
-    this.mockDataService.getMenu().subscribe(data  =>   {    
-       this.mockMenu = data;
-      console.log(this.mockMenu);
-      // console.log(this.mockMenu.createdBy);
-    });
-  }
+  // private getJson(){
+  //   // this.mockDataService.getMenu().subscribe(data  => this.mockMenu =  { ...data   });  // works but can't do anything in it
+  //   this.mockDataService.getMenu().subscribe(data  =>   {    
+  //      this.mockMenu = data;
+  //     console.log(this.mockMenu);
+  //     // console.log(this.mockMenu.createdBy);
+  //   });
+  // }
 
 
 }
