@@ -13,6 +13,8 @@ import { MenuHeaderComponent } from './components/menu-header/menu-header.compon
 import { MenuFooterComponent } from './components/menu-footer/menu-footer.component';
 import { MenuCategoryComponent } from './components/menu-category/menu-category.component';
 import { MockDataService } from './services/mock-data.service';
+import { RestaurantComponent } from './components/restaurant/restaurant.component';
+import { RestaurantChainComponent } from './components/restaurant-chain/restaurant-chain.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { MockDataService } from './services/mock-data.service';
     MenuComponent,
     MenuHeaderComponent,
     MenuFooterComponent,
-    MenuCategoryComponent
+    MenuCategoryComponent,
+    RestaurantComponent,
+    RestaurantChainComponent
   ],
   imports: [
     BrowserModule,

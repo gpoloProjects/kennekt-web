@@ -2,6 +2,7 @@
     "restaurantChain": "Arbys",
     "title": "lunch",
     "headerImage": "assets/mock-api/mock-images/arbys.png",
+    "categories": ["poultry", "dessert", "salad"],
     "poultry": [
         {
             "category": "poultry",

@@ -6,6 +6,7 @@
         "restaurantChain": "Arbys",
         "title": "lunch",
         "headerImage": "assets/mock-api/mock-images/arbys.png",
+        "categories": ["poultry", "dessert", "salad"],
         "poultry": [
             {
                 "category": "poultry",
@@ -75,6 +76,7 @@
         "restaurantChain": "Arbys",
         "title": "dinner",
         "headerImage": "assets/mock-api/mock-images/arbys.png",
+        "categories": ["appetizers", "drinks", "pasta"],
         "appetizers": [
             {
                 "category": "appetizers",
