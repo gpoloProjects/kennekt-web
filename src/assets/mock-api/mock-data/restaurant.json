@@ -1,0 +1,143 @@
+{
+    "id": 1,
+    "title": "arbys",
+    "menus": ["lunch", "dinner"],
+    "lunch": {
+        "restaurantChain": "Arbys",
+        "title": "lunch",
+        "headerImage": "assets/mock-api/mock-images/arbys.png",
+        "poultry": [
+            {
+                "category": "poultry",
+                "actionState": {"actionState": "AddItemToMenu"},
+                "image": "assets/mock-api/mock-images/chicken.jpg",
+                "avgCookTime": 600,
+                "favorite": false,
+                "foodTitle": "chicken special",
+                "rating": 4,
+                "priceTitles": ["small", "medium", "high"],
+                "prices": [10, 15, 20],
+                "description": "the special in Arbys chicken sandwhich", 
+                "nutrients": null,
+                "isEmpty": false
+            },
+            {
+                "category": "poultry",
+                "actionState": {"actionState": "AddItemToMenu"},
+                "image": "assets/mock-api/mock-images/chicken.jpg",
+                "avgCookTime": 600,
+                "favorite": false,
+                "foodTitle": "chicken special 2",
+                "rating": 4,
+                "priceTitles": [],
+                "prices": [12.50],
+                "description": "the special in Arbys chicken sandwhich", 
+                "nutrients": null,
+                "isEmpty": false
+            }
+        ],
+        "dessert": [
+            {
+                "category": "dessert",
+                "actionState": {"actionState": "AddItemToMenu"},
+                "image": "assets/mock-api/mock-images/chicken.jpg",
+                "avgCookTime": 600,
+                "favorite": false,
+                "foodTitle": "chicken special desert",
+                "rating": 4,
+                "priceTitles": ["small", "medium", "high"],
+                "prices": [10, 15, 20],
+                "description": "the special in Arbys chicken sandwhich", 
+                "nutrients": null,
+                "isEmpty": false
+            }
+        ],
+        "salad": [
+            {
+                "category": "salad",
+                "actionState": {"actionState": "AddItemToMenu"},
+                "image": "assets/mock-api/mock-images/chicken.jpg",
+                "avgCookTime": 600,
+                "favorite": false,
+                "foodTitle": "chicken special",
+                "rating": 4,
+                "priceTitles": ["small", "medium", "high"],
+                "prices": [10, 15, 20],
+                "description": "the special in Arbys chicken sandwhich", 
+                "nutrients": null,
+                "isEmpty": false
+            }
+        ],
+        "createdBy": "test man!",
+        "modifiedBy": "Glen"
+    },
+    "dinner": {
+        "restaurantChain": "Arbys",
+        "title": "dinner",
+        "headerImage": "assets/mock-api/mock-images/arbys.png",
+        "appetizers": [
+            {
+                "category": "appetizers",
+                "actionState": {"actionState": "AddItemToMenu"},
+                "image": "assets/mock-api/mock-images/chicken.jpg",
+                "avgCookTime": 600,
+                "favorite": false,
+                "foodTitle": "chicken special",
+                "rating": 4,
+                "priceTitles": ["small", "medium", "high"],
+                "prices": [10, 15, 20],
+                "description": "the special in Arbys chicken sandwhich", 
+                "nutrients": null,
+                "isEmpty": false
+            },
+            {
+                "category": "appetizers",
+                "actionState": {"actionState": "AddItemToMenu"},
+                "image": "assets/mock-api/mock-images/chicken.jpg",
+                "avgCookTime": 600,
+                "favorite": false,
+                "foodTitle": "chicken special 2",
+                "rating": 4,
+                "priceTitles": [],
+                "prices": [12.50],
+                "description": "the special in Arbys chicken sandwhich", 
+                "nutrients": null,
+                "isEmpty": false
+            }
+        ],
+        "drinks": [
+            {
+                "category": "drinks",
+                "actionState": {"actionState": "AddItemToMenu"},
+                "image": "assets/mock-api/mock-images/chicken.jpg",
+                "avgCookTime": 600,
+                "favorite": false,
+                "foodTitle": "chicken special desert",
+                "rating": 4,
+                "priceTitles": ["small", "medium", "high"],
+                "prices": [10, 15, 20],
+                "description": "the special in Arbys chicken sandwhich", 
+                "nutrients": null,
+                "isEmpty": false
+            }
+        ],
+        "pasta": [
+            {
+                "category": "pasta",
+                "actionState": {"actionState": "AddItemToMenu"},
+                "image": "assets/mock-api/mock-images/chicken.jpg",
+                "avgCookTime": 600,
+                "favorite": false,
+                "foodTitle": "chicken special",
+                "rating": 4,
+                "priceTitles": ["small", "medium", "high"],
+                "prices": [10, 15, 20],
+                "description": "the special in Arbys chicken sandwhich", 
+                "nutrients": null,
+                "isEmpty": false
+            }
+        ],
+        "createdBy": "test man!",
+        "modifiedBy": "Glen"
+    }
+}

@@ -6,11 +6,10 @@ import { Observable } from 'rxjs/Observable';
 @Injectable()
 export class MockDataService {
 
-  private menuUrl = 'assets/mock-api/mock-data/menu.json';  // works!
-  private menuUrl2 = '../../../mock-api/mock-data/menu.json'; // can't find?
+  private menuUrl = 'assets/mock-api/mock-data/menu.json';
   constructor(private http: HttpClient) { }
 
   getMenu(): Observable<any>{
-      return this.http.get<Menu>(this.menuUrl); 
+      return this.http.get<Menu>(this.menuUrl);
   }
 }

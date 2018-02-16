@@ -2,7 +2,7 @@
     "restaurantChain": "Arbys",
     "title": "lunch",
     "headerImage": "assets/mock-api/mock-images/arbys.png",
-    "lunch": [
+    "poultry": [
         {
             "category": "poultry",
             "actionState": {"actionState": "AddItemToMenu"},
@@ -30,7 +30,9 @@
             "description": "the special in Arbys chicken sandwhich", 
             "nutrients": null,
             "isEmpty": false
-        },
+        }
+    ],
+    "dessert": [
         {
             "category": "dessert",
             "actionState": {"actionState": "AddItemToMenu"},
@@ -45,10 +47,10 @@
             "nutrients": null,
             "isEmpty": false
         }
-    ], 
-    "dinner": [
+    ],
+    "salad": [
         {
-            "category": "poultry",
+            "category": "salad",
             "actionState": {"actionState": "AddItemToMenu"},
             "image": "assets/mock-api/mock-images/chicken.jpg",
             "avgCookTime": 600,
@@ -64,5 +66,4 @@
     ],
     "createdBy": "test man!",
     "modifiedBy": "Glen"
-
 }
