@@ -1,1 +1,8 @@
-<app-menu></app-menu>
+Menu Options: 
+
+<div class="row">
+    <div class="col-4" *ngFor="let menu of mockRestaurant?.menus" (click)="setMenu(menu)" routerLink="/menu">
+        {{menu}}
+        <img [src]="getMenuImage(menu)">
+    </div>
+</div>

@@ -1,1 +1,14 @@
-<app-menu-category></app-menu-category>
+<div class="row">
+    <div class="col-12 title image-container" [ngStyle]="{ 'background-image': 'url(' + menu?.headerImage + ')'}">
+        <!-- <img [src]="menu?.headerImage"> -->
+        <div class="image-text" style="top: 40%">{{menu?.restaurantChain}}</div>
+        <div class="image-text">{{menu?.title}} Menu</div>
+    </div>
+</div>
+
+<div *ngFor="let category of menu?.categories">
+    {{category}}
+    <app-menu-category [category]="category" [menuItems]="getMenuItems(category)"></app-menu-category>
+</div>
+
+
