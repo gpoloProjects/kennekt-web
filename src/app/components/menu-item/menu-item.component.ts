@@ -12,7 +12,7 @@ import {RatingModule} from 'primeng/rating';
   styleUrls: ['./menu-item.component.css']
 })
 export class MenuItemComponent implements OnInit {
-  valFavorite: number;
+  favoritePrev = 0;
   val = 5;
 
   @Input() menuItem: MenuItem;
@@ -28,8 +28,7 @@ export class MenuItemComponent implements OnInit {
   public toggleFavorite(event){
     console.log('event from favorite toggled ', event);
     console.log('value of favorite is: ', event.value);
-    // if(this.valFavorite === 1){
-    //   this.valFavorite = 0;
-    // }
+
+
   }
 }
