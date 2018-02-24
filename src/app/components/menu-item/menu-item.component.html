@@ -13,9 +13,13 @@
     </div>
   </div>
   <div class="col-6">
-    <span>favorite</span>
+    <span>
+        <p-rating [(ngModel)]="favoriteCurr" stars="1" [cancel]="false" (onRate)="toggleFavorite($event)"></p-rating>
+    </span>
     <span>{{menuItem.foodTitle}}</span>
-    <span>rating</span>
+    <span>
+      <p-rating [(ngModel)]="val"></p-rating>
+    </span>
     <div class="row">
       <div class="col-12">
         {{menuItem.description}}

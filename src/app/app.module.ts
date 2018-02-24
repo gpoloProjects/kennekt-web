@@ -3,9 +3,11 @@ import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
+import { FormsModule } from '@angular/forms';
 
 // PrimeNG Modules
-import {MenubarModule} from 'primeng/primeng';
+// import {MenubarModule} from 'primeng/primeng';
+import {RatingModule} from 'primeng/rating';
 
 // Components
 import { MenuItemComponent } from './components/menu-item/menu-item.component';
@@ -40,9 +42,10 @@ import { FooterComponent } from './components/footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    MenubarModule,
     HttpClientModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RatingModule,
+    FormsModule
   ],
   providers: [
     MockDataService,

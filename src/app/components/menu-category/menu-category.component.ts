@@ -16,7 +16,7 @@ export class MenuCategoryComponent implements OnInit {
   constructor(private menuService: MenuService) { }
 
   ngOnInit() {
-    console.log('got menu items now', this.category, this.menuItems);
+    // console.log('got menu items now', this.category, this.menuItems);
   }
 
 }
