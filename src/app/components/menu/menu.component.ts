@@ -40,7 +40,7 @@ export class MenuComponent implements OnInit, OnDestroy {
 
 
   getMenuItems(category: string): MenuItem[]{
-    if(this.menu.mapMenuItem === null){
+    if(this.menu.mapMenuItem === null || this.menu.mapMenuItem.size <= 0){
       return null;
     }
     return this.menu.mapMenuItem.get(category);

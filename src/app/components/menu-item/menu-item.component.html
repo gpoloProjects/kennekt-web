@@ -3,20 +3,22 @@
       action mode
   </div>
   <div class="col-2">
-    <img src="assets/mock-api/mock-images/chicken.jpg">
-    <!-- <img [src]="mockMenu?.headerImage" width="100px" height="100px"> -->
+    <!-- <img src="assets/mock-api/mock-images/chicken.jpg"> -->
+    <img [src]="menuItem?.image" width="100px" height="100px">
     <br/> <br/>
     <div class="row">
       <div class="col-12">
-        average cook time: {{mockMenu?.lunch[0].avgCookTime}} secs
+        average cook time: {{menuItem.avgCookTime}} secs
       </div>
     </div>
   </div>
   <div class="col-6">
-    favorite  space      food title     space    rating
+    <span>favorite</span>
+    <span>{{menuItem.foodTitle}}</span>
+    <span>rating</span>
     <div class="row">
       <div class="col-12">
-        description
+        {{menuItem.description}}
       </div>
     </div>
     <div class="row">

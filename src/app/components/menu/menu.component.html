@@ -6,9 +6,8 @@
     </div>
 </div>
 
-<div *ngFor="let category of menu?.categories">
-    {{category}}
-    <app-menu-category [category]="category" [menuItems]="getMenuItems(category)"></app-menu-category>
+<div class="row">
+    <div class="col-12 " *ngFor="let category of menu?.categories">
+        <app-menu-category [category]="category" [menuItems]="getMenuItems(category)"></app-menu-category>
+    </div>
 </div>
-
-
