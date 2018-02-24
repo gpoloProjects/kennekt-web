@@ -12,7 +12,7 @@ import {RatingModule} from 'primeng/rating';
   styleUrls: ['./menu-item.component.css']
 })
 export class MenuItemComponent implements OnInit {
-  favoritePrev = 0;
+  favoritePrev = 0 ;
   val = 5;
 
   @Input() menuItem: MenuItem;
