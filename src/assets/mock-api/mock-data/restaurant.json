@@ -46,7 +46,7 @@
                 "favorite": false,
                 "foodTitle": "chicken special desert",
                 "rating": 4,
-                "priceTitles": ["small", "medium", "high"],
+                "priceTitles": ["sm", "m", "l"],
                 "prices": [10, 15, 20],
                 "description": "the special in Arbys chicken sandwhich", 
                 "nutrients": null,

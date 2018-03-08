@@ -5,16 +5,17 @@
   <div class="col-2">
     <!-- <img src="assets/mock-api/mock-images/chicken.jpg"> -->
     <img [src]="menuItem?.image" width="100px" height="100px">
-    <br/> <br/>
     <div class="row">
       <div class="col-12">
-        average cook time: {{menuItem.avgCookTime}} secs
+        avg cook time: {{menuItem.avgCookTime}} secs
       </div>
     </div>
   </div>
   <div class="col-6">
     <span>
-        <p-rating [(ngModel)]="favoriteCurr" stars="1" [cancel]="false" (onRate)="toggleFavorite($event)"></p-rating>
+        <!-- <p-rating [(ngModel)]="favoriteCurr" stars="1" [cancel]="false" (onRate)="toggleFavorite($event)"></p-rating> -->
+        <i class="fa fa-star" *ngIf="isFavorite" style="color: red" (click)="toggleFavorite()"></i>
+        <i class="fa fa-star-o" *ngIf="!isFavorite" (click)="toggleFavorite()"></i>
     </span>
     <span>{{menuItem.foodTitle}}</span>
     <span>
@@ -33,10 +34,14 @@
     </div>
   </div>
   <div class="col-2">
-    price titles
+    <div class="row" *ngIf="menuItem.priceTitles.length > 0">
+        <div class="col-4" style="display: inline;" *ngFor="let priceTitle of menuItem.priceTitles">
+            {{priceTitle}}
+        </div>
+    </div>    
     <div class="row">
-      <div class="col-12">
-        prices
+      <div class="col-4" style="display: inline;" *ngFor="let price of menuItem.prices">
+          ${{price}}
       </div>
     </div>
   </div>
