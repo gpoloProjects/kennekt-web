@@ -13,13 +13,13 @@
   </div>
   <div class="col-6">
     <span>
-        <!-- <p-rating [(ngModel)]="favoriteCurr" stars="1" [cancel]="false" (onRate)="toggleFavorite($event)"></p-rating> -->
         <i class="fa fa-star" *ngIf="isFavorite" style="color: red" (click)="toggleFavorite()"></i>
         <i class="fa fa-star-o" *ngIf="!isFavorite" (click)="toggleFavorite()"></i>
     </span>
     <span>{{menuItem.foodTitle}}</span>
     <span>
-      <p-rating [(ngModel)]="val"></p-rating>
+      <!-- <p-rating [(ngModel)]="val"></p-rating> -->
+      <!-- TODO: write my own -->
     </span>
     <div class="row">
       <div class="col-12">

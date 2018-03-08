@@ -16,8 +16,7 @@ export class MenuItemComponent implements OnInit {
   isFavorite = false;
 
   @Input() menuItem: MenuItem;
-  mockMenu: Menu;
-
+  
   constructor() { }
 
   ngOnInit() {
