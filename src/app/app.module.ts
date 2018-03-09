@@ -26,6 +26,7 @@ import { MenuService } from './services/menu/menu.service';
 import { AppRoutingModule } from './routes/app-routing/app-routing.module';
 import { HomeComponent } from './components/home/home.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { RatingComponent } from './components/rating/rating.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import { FooterComponent } from './components/footer/footer.component';
     RestaurantChainComponent,
     HomeComponent,
     FooterComponent,
+    RatingComponent,
   ],
   imports: [
     BrowserModule,

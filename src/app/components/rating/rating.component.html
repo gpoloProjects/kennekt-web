@@ -1,0 +1,12 @@
+<!-- {{ratingsFilled.length}}
+{{ratingsUnfilled.length}} -->
+Rating is: {{rating}}
+Unfilled ratings:  {{ratingMax - rating}}
+<div style="display: inline;" *ngFor="let ratingFilled of ratingsFilled">
+  <i class="fa fa-star"></i>
+</div>
+<div style="display: inline;" *ngFor="let ratingOpen of ratingsUnfilled">
+  <i class="fa fa-star" ></i>
+</div>
+
+

@@ -7,6 +7,11 @@
     <img [src]="menuItem?.image" width="100px" height="100px">
     <div class="row">
       <div class="col-12">
+        <app-rating [rating]="menuItem.rating"></app-rating>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
         avg cook time: {{menuItem.avgCookTime}} secs
       </div>
     </div>
@@ -17,10 +22,6 @@
         <i class="fa fa-star-o" *ngIf="!isFavorite" (click)="toggleFavorite()"></i>
     </span>
     <span>{{menuItem.foodTitle}}</span>
-    <span>
-      <!-- <p-rating [(ngModel)]="val"></p-rating> -->
-      <!-- TODO: write my own -->
-    </span>
     <div class="row">
       <div class="col-12">
         {{menuItem.description}}

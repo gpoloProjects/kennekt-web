@@ -12,11 +12,10 @@ import {RatingModule} from 'primeng/rating';
   styleUrls: ['./menu-item.component.css']
 })
 export class MenuItemComponent implements OnInit {
-  val = 5;
   isFavorite = false;
 
   @Input() menuItem: MenuItem;
-  
+
   constructor() { }
 
   ngOnInit() {
