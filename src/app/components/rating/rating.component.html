@@ -1,12 +1,5 @@
-<!-- {{ratingsFilled.length}}
-{{ratingsUnfilled.length}} -->
 Rating is: {{rating}}
-Unfilled ratings:  {{ratingMax - rating}}
-<div style="display: inline;" *ngFor="let ratingFilled of ratingsFilled">
-  <i class="fa fa-star"></i>
+<div style="display: inline;" *ngFor="let rating of ratings; index as i;">
+  <i *ngIf="rating == 1" class="fa fa-star" (click)="clickedRating(i)"></i>
+  <i *ngIf="rating == 0" class="fa fa-star-o" (click)="clickedRating(i)"></i>
 </div>
-<div style="display: inline;" *ngFor="let ratingOpen of ratingsUnfilled">
-  <i class="fa fa-star" ></i>
-</div>
-
-
